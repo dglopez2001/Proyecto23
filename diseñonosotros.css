@@ -1,0 +1,44 @@
+.container-nosotros {
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+  }
+  
+  .img {
+    flex: 1;
+    margin-bottom: 2%;
+  }
+
+  .titulo-parrafo{
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .titulo-parrafo2{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .txt{
+    margin-left: 1%;
+    max-width: 40vw;
+  }
+
+  .txt-parrafo{
+    text-align: justify;
+  }
+
+  .cezary, .daniel {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .daniel{
+    margin-left: 4%;
+  }
+  
+  .equipo {
+    display: flex;
+    margin-bottom: 1%;
+  }

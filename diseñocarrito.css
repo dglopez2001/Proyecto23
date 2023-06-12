@@ -1,0 +1,105 @@
+
+.table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+   
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    padding: 8px;
+    
+  }
+  
+  .table th {
+    background-color: #0a021c;
+    color: #ffffff;
+  }
+  
+  .table td {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #1f1141;
+	color: #ffffff;
+  }
+  
+  .btn {
+    display: inline-block;
+	background-color: #9ad9f0;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	margin-top: 10px;
+	margin-right: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #39beee;
+	color: white;
+  }
+
+  .eliminar  {
+    max-width: 30px;
+    height: auto;
+    background-color: #9ad9f0;
+   
+   
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .eliminar:hover  {
+    max-width: 30px;
+    height: auto;
+    background-color: #ff7b7b;
+   
+   
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .eliminar img {
+    max-width: 30px;
+    height: auto;
+    background-color: #9ad9f0;
+   
+   
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .eliminar:hover img {
+    max-width: 30px;
+    height: auto;
+    background-color: #ff7b7b;
+   
+   
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .h1-carrito{
+    text-align: center;
+    margin: 1%;
+  }
+
+  .panel-body {
+    height: 70vh;
+  }
+

@@ -1,0 +1,102 @@
+
+/* Estilos para la tabla de pagos */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #7c899a;
+    border-bottom: 1px solid #7c899a;
+  }
+  
+  .table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+  }
+  
+  .table td {
+    background-color: #fff;
+  }
+  
+  .table td:first-child {
+    width: 40%;
+  }
+  
+  
+  .table tfoot td:first-child {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .shipAddr {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #7c899a;
+    padding: 10px;
+  }
+  
+  .shipAddr h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 47%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .shipAddr p {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 47%;
+    font-size: 14px;
+  }
+  
+  .footBtn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  
+  .orderBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #75c8e7;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .orderBtn:hover {
+    background-color: #53a5c3;
+  }
+
+  .contiBtn {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #75c8e7;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .contiBtn:hover {
+    background-color: #53a5c3;
+  }
+
+  .h1-pagos{
+    text-align: center;
+    margin: 1%;
+  }

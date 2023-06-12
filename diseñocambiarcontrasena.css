@@ -1,0 +1,83 @@
+   /* Estilos de formulario */
+  form.cambiarcontraseña {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  }
+  
+
+  input[type="password"].cambiarcontraseña {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  line-height: 1.5;
+  }
+
+  input[type="password"].primero {
+    margin-top: 30px;
+    }
+
+  button[type="submit"].cambiarcontraseña {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+}
+  
+  button[type="submit"]:hover.cambiarcontraseña {
+  background-color: #555;
+  }
+
+  img.cambiarcontraseña {
+    display: block;
+    margin-top: 10px;
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  /* Estilos para los mensajes de error */
+  .error {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff4444;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+
+  /* Estilos para los mensajes de éxito */
+  .correcto {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #059f24;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
